@@ -1,0 +1,60 @@
+.second {
+    border: solid thin #ccc;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-right: 15px !important;
+}
+
+.first {
+    padding-left: 0 !important;
+}
+
+.footercard {
+    background: transparent !important;
+    border: none !important; 
+}
+
+.homepage-banner {
+    background-image: url("./images/bottle-bowl-breakfast-704971.jpg");
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center; 
+    background-origin: content-box;
+}
+
+.search-navbar {
+    background-color: rgba(0,0,0,.6);
+    width: 5000px;
+    border-radius: 7px;
+    padding-top: 70px !important;
+}
+
+#snapple {
+    width:400px;
+}
+
+.card-deck {
+    height: 600px;
+    width: 5000px;
+}
+
+.product {
+    max-height: 500px;
+    padding: 0 !important;
+}
+
+.img-container {
+    display: flex;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-img {
+    max-height: 70%;
+}
+
+.product-info {
+    height: 200px;
+}
+

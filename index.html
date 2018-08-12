@@ -1,0 +1,302 @@
+!
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Page Title</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+    crossorigin="anonymous">
+</head>
+
+<body>
+  <!-- navbar -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">ProFood.com</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Buy<span class="sr-only"></span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Sell</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Categories
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">How It Works</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  <!-- jumbotron and search bar -->
+  <div class="container">
+    <div class="jumbotron homepage-banner">
+      <div class="container">
+        <div class="row">
+          <nav class="navbar navbar-light justify-content-center search-navbar">
+              <div class="input-group search-navbar-container">
+                  <input type="text" class="form-control" aria-label="Text input with dropdown button">
+                  <div class="input-group-append">
+                    <button class="btn dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Ireland</button>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">Products</a>
+                      <a class="dropdown-item" href="#">What are you looking for</a>
+                      <a class="dropdown-item" href="#"></a>
+                      <div role="separator" class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Categories</a>
+                    </div>
+                    <button class="btn btn-primary ml-1">Search</button>
+                  </div>
+                </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <h2>Top Sellers</h2>
+    <div class="card-deck row" style="max-width: 85%; margin: 4em auto;">
+      <div class="col-sm-2 col-md-3 product">
+        <div class="card">
+          <div class="img-container">
+            <img class="card-img-top product-img" src="./images/cuda wine.jpg" alt="Card image cap">
+          </div>
+          <div class="card-body product-info">
+            <h5 class="card-title">Cuda Ridge Cabernet Franch</h5>
+            <p class="card-text">California Red Wine Franc 6x750ml Bottle</p>
+            <p class="card-text">.</p>
+            <p class="card-text">US $28/Unit</p>
+            <p class="card-text">US $ 150/Case - 40" Foot Container</p>
+            <p class="card-text">
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-2 col-md-3 product">
+        <div class="card">
+          <div class="img-container">
+            <img class="card-img-top" src="./images/apples-219986_1280.jpg" alt="Card image cap">
+          </div>
+          <div class="card-body">
+              <h5 class="card-title">Fresh Apple</h5>
+              <p class="card-text">Organic Gala Apple 24 x 1 Carton</p>
+              <p class="card-text">.</p>
+              <p class="card-text">Average Review</p>
+              <p class="card-text">US $6/Carton</p>
+              <p class="card-text">US $ 3000/1000 Cartons (min Order)</p>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-2 col-md-3 product">
+        <div class="card">
+          <div class="img-container-large">
+            <img class="card-img" src="./images/TEACOOK1000016773_-00_Flahavans-Pinhead-Irish-Oatmeal-1kg.jpg" alt="Card image cap">
+          </div>
+          <div class="card-body">
+              <h5 class="card-title">Flahavans Oat Meals</h5>
+              <p class="card-text">Irish Museli Oat 12 x 1Kg</p>
+              <p class="card-text">.</p>
+              <p class="card-text">Average Review</p>
+              <p class="card-text">US $ 5 / Unit</p>
+              <p class="card-text">US $ 25/Case - 40" Foot Container</p> 
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-2 col-md-3 product">
+        <div class="card">
+          <div class="img-container-large">
+            <img class="card-img" src="./images/lemonade-684991_1920.jpg" alt="Card image cap">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Lemonade ExpoDrink</h5>
+            <p class="card-text">
+              100% Organic Drink  24 x 350ml</p>
+            <p class="card-text">Average Review</p>
+               </p>
+              <p class="card-text">  US $ 1 / Unit</p>
+                <p class="card-text">
+                    US $ 10 / Case - 20" Foot Container</p>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid second-row-container">
+    <div class="row">
+      <div class="col-md-6 col-sm-4 first">
+        <div class="row second">
+          <div class="col-md-4">
+            <div class="img-container">
+              <img class="card-img-top" src="./images/entrecote-1703298_1280.jpg" alt="Card image cap">
+            </div>
+          </div>
+          <div class="col-md-4">
+              <h5 class="card-title">Irish Buffalo Beef</h5>
+              <p class="card-text">Frozen Boneless 10pcs x 1kg</p>
+              <p class="card-text">.</p>
+              <p class="card-text">Average Review</p>
+              <p class="card-text">US $28/Unit</p>
+              <p class="card-text">US $ 150/Case - 40" Foot Container</p>
+              <p class="card-text">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-sm-4 first">
+        <div class="row second">
+          <div class="col-md-4">
+            <div class="img-container">
+              <img class="card-img-top" src="./images/noodles-516635_1280.jpg" alt="Card image cap">
+            </div>
+          </div>
+          <div class="col-md-4">
+              <h5 class="card-title">Indian Rice</h5>
+              <p class="card-text">Long Grain White Rice 12 x 3kgs</p>
+              <p class="card-text">.</p>
+              <p class="card-text">Average Review</p>
+              <p class="card-text">US $ 3 / Package</p>
+              <p class="card-text">US $ 1200 / Ton - (20T Min. Order)</p>
+              <p class="card-text">
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card-deck" style="max-width: 85%; margin: 4em auto;">
+    <div class="card">
+      <div class="img-container">
+        <img class="card-img-top" src="./images/sugar-2263618_1920.jpg" alt="Card image cap">
+      </div>
+      <div class="card-body">
+          <h5 class="card-title">Brazilian Sugar</h5>
+          <p class="card-text">Best Quality White Sugar 1 x 25kg/bag</p>
+          <p class="card-text">.</p>
+          <p class="card-text">Average Review</p>
+          <p class="card-text">US $ 8 / Bag</p>
+          <p class="card-text">US $ 240 / Ton (25T Min. order)</p>
+          <p class="card-text">
+      </div>
+    </div>
+    <div class="card">
+      <div class="img-container">
+        <img class="card-img-top" src="./images/honey_2_lr_sq_530x@2x.jpg" alt="Card image cap">
+      </div>
+      <div class="card-body">
+          <h5 class="card-title">Miss Bee Haven</h5>
+          <p class="card-text">Wild/ open Field Honey 1 x 8oz</p>
+          <p class="card-text">.</p>
+          <p class="card-text">Average Review</p>
+          <p class="card-text">US $ 8 / 8oz</p>
+          <p class="card-text">US $ Wholesale Price (Contact Supplier)</p>
+          <p class="card-text">
+      </div>
+    </div>
+    <div class="card">
+      <div class="img-container">
+        <img class="card-img-top" src="./images/soy-beans-968986_1920.jpg" alt="Card image cap">
+      </div>
+      <div class="card-body">
+          <h5 class="card-title">Californian Soy Beans</h5>
+          <p class="card-text">High Protein Soy Beans 1 x 10kg</p>
+          <p class="card-text">.</p>
+          <p class="card-text">Average Review</p>
+          <p class="card-text">US $ 8 / Bag</p>
+          <p class="card-text">US $ 500 / Ton (20T Min. Order)</p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="img-container">
+        <img class="card-img-top" src="./images/coffee-171653_1920.jpg" alt="Card image cap">
+      </div>
+      <div class="card-body">
+          <h5 class="card-title">Ethiopian Coffee</h5>
+          <p class="card-text">Robusta Green Bean 24 x 500g</p>
+          <p class="card-text">.</p>
+          <p class="card-text">Average Review</p>
+          <p class="card-text">US $ 3 / Unit</p>
+          <p class="card-text">US $ 1000 / T (20 T Min. Order)</p>
+          <p class="card-text">
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="card-deck" style="
+            max-width: 100%;
+            margin: 3em auto;
+            background-color: #5BA29E;
+            padding: 2em;
+        ">
+    <div class="card footercard">
+      <div class="card-body">
+          <h5 class="card-title">Get To Know Us</h5>
+          <p class="card-text">FAQ</p>
+          <p class="card-text">About Us</p>
+          <p class="card-text">Events</p>
+          <p class="card-text">Careers</p>
+          <p class="card-text">Contact</p>
+          <p class="card-text">Sitemap</p>
+      </div>
+    </div>
+    <div class="card footercard">
+      <div class="card-body">
+          <h5 class="card-title">Sell on ProFood</h5>
+          <p class="card-text">Supplier Membership</p>
+          <p class="card-text">Advertise your Products</p>
+          <p class="card-text">Terms and Conditions</p>
+      </div>
+    </div>
+    <div class="card footercard" style="background: transparent; border: none;">
+      <div class="card-body" style="background: transparent !important;">
+          <h5 class="card-title">Buy on ProFood</h5>
+          <p class="card-text">All Categories</p>
+          <p class="card-text">Ask for Quotation</p>
+          <p class="card-text">Wholesalers Market</p>
+          <p class="card-text">Retailers Market</p>
+          <p class="card-text">Search by Location</p>
+      </div>
+    </div>
+    <div class="card footercard">
+      <div class="card-body">
+          <h5 class="card-title">Trade Services </h5>
+          <p class="card-text">Business Identity</p>
+          <p class="card-text">Secure Payment</p>
+          <p class="card-text">Inspection Service</p>
+          <p class="card-text">Logistic</p>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+  <script src="app.js"></script>
+
+</body>
+
+</html>
